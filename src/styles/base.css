@@ -5,7 +5,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #F7F7F7;
+  background: #d8d8d8;
+  color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -13,31 +14,34 @@ body {
   line-height: 1;
 }
 
-.App {
-  text-align: center;
+.wrapper {
+  width: 100%;
+  padding: 0 15px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.wrapper--bottom {
+  padding-bottom: 40px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+h1, h2, h3 {
+  font-weight: 300;
+  line-height: 1.2;
 }
 
-.App-title {
-  font-size: 1.5em;
+h1 {
+   font-size: 32px;
 }
 
-.App-intro {
-  font-size: large;
+h2 {
+  font-size: 28px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h3 {
+  font-size: 22px;
+}
+
+@media(max-width: 479px) {
+  body {
+    background: #1b0f23
+  } 
 }
