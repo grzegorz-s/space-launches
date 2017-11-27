@@ -1,9 +1,20 @@
 {
   "main.css": "static/css/main.ec7f369b.css",
   "main.css.map": "static/css/main.ec7f369b.css.map",
-  "main.js": "static/js/main.db083b15.js",
-  "main.js.map": "static/js/main.db083b15.js.map",
+  "main.js": "static/js/main.33b8d2f2.js",
+  "main.js.map": "static/js/main.33b8d2f2.js.map",
   "static/media/001-moon.svg": "static/media/001-moon.0dfba543.svg",
   "static/media/002-space-shuttle-1.svg": "static/media/002-space-shuttle-1.4a55dd63.svg",
-  "static/media/003-planet-earth.svg": "static/media/003-planet-earth.13fa27ec.svg"
+  "static/media/003-planet-earth.svg": "static/media/003-planet-earth.13fa27ec.svg",
+  "static/media/AUS.svg": "static/media/AUS.cab2eac6.svg",
+  "static/media/CAN.svg": "static/media/CAN.ed3cd4b5.svg",
+  "static/media/CHN.svg": "static/media/CHN.7f8455b7.svg",
+  "static/media/FRA.svg": "static/media/FRA.968aaa24.svg",
+  "static/media/IND.svg": "static/media/IND.9ec8b782.svg",
+  "static/media/JPN.svg": "static/media/JPN.1f905d23.svg",
+  "static/media/KAZ.svg": "static/media/KAZ.e3cd3d05.svg",
+  "static/media/NZL.svg": "static/media/NZL.9e547785.svg",
+  "static/media/RUS.svg": "static/media/RUS.6e8cc30d.svg",
+  "static/media/UKR.svg": "static/media/UKR.ce258373.svg",
+  "static/media/USA.svg": "static/media/USA.36ab476e.svg"
 }
