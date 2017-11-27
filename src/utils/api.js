@@ -15,9 +15,13 @@ export function fetchNextLaunches() {
   .then(response => response.data.launches.filter(checkNext));
 }
 
-export function fetchMoreLaunches(offset) {
+export function fetchMoreLaunches(page) {
+  const offset = (page - 1) * 10;
   return axios.get(`${apiUrl}/launch/next/10?offset=${offset}`)
   .then(response =>  response.data.launches.filter(checkNext));
+  // .catch(function (error) {
+  //   console.log('error',error);
+  // });
 }
 
 export function fetchLaunch(id) {

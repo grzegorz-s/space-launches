@@ -30,6 +30,7 @@ export const ButtonPrimary = Button.extend`
 export const ButtonsSmallHld = styled.div`
   display: flex;
   justify-content: flex-end;
+  position: relative;
   margin-top: -35px;
 `;
 

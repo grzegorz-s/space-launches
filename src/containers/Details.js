@@ -28,20 +28,20 @@ const DetailsContent = ({launch}) => {
   const string = 'placeholder';
   const imageLink = launch.rocket.imageURL;
   const hasPlaceholder = imageLink.includes(string);
-  console.log(launch);
 
   return(
     <div>
-      <Container>
-        { hasPlaceholder ? (
-          <DetailsHeaderPlaceholder>
-            <img src={ placeholderImg } alt="SpaceShip"/>
-          </DetailsHeaderPlaceholder>
-          ) : (
-          <DetailsHeader image={imageLink} />
-        )}
+      { hasPlaceholder ? (
+        <DetailsHeaderPlaceholder>
+          <img src={ placeholderImg } alt="SpaceShip"/>
+        </DetailsHeaderPlaceholder>
+        ) : (
+        <DetailsHeader image={imageLink} />
+      )}
 
-        { launch.vidURLs ? (
+      <Container>
+
+        { launch.vidURLs && launch.vidURLs.length !== 0 ? (
           <ButtonsSmallHld>
           {launch.vidURLs.map(function (vidUrl, i) {
             return (
